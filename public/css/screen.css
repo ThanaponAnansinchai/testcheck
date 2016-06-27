@@ -1,0 +1,154 @@
+html {
+    background-color: orange;
+}
+
+body {
+    font-size: 90%;
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    padding-top: 40px;
+    padding-bottom: 0px;
+}
+
+/* Site Navigation */
+.site-nav ul {
+    margin: 0;
+    padding: 0;
+}
+.site-nav li {
+    list-style: none;
+    float: left;
+    margin-right: 5px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.site-nav {
+    margin-bottom: 0px;
+}
+
+.site-nav a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    border: 2px solid #E55934;
+    border-bottom: none;
+}
+
+.site-nav a:hover {
+    background-color: #FDE74C;
+}
+/* End Site Navigation */
+
+.container {
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #FFF;
+    box-sizing: border-box;
+}
+
+.content-area {
+    border-top: 2px solid #E55934;
+    border-bottom: 2px solid #E55934;
+}
+
+.logo {
+    float: left;
+}
+
+.domeimage {
+    float: left;
+    margin-right: 10px;
+}
+
+header h1 {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.main {
+    width: 100%;
+    float: left;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.firstparagraph {
+    margin-top: 0;
+}
+
+.sidebar {
+    font-size: 85%;
+    width: 34%;
+    float: left;
+    border: 1px solid gray;
+    padding: 20px 20px;
+    box-sizing: border-box;
+}
+
+h2 {
+    margin-top: 10;
+    text-align: center;
+}
+
+footer p {
+    font-size: 90%;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 5px;
+    padding-bottom: 20px;
+}
+
+/* Table section */
+table {
+    border-collapse: collapse;
+    margin-left:auto;
+    margin-right:auto;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th {
+    font-weight: bold;
+    text-align: center;
+    background-color: #eaeaea;
+}
+th, td {
+    padding: 5px;
+}
+tr:hover {
+    background-color: #FDE74C;
+}
+/* End table section */
+
+/* Form section */
+form {
+    width: 250px;
+    margin: 0 auto;
+}
+button, input, select, textarea {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: inherit;
+    font-size: 100%;
+}
+/* End form section */
+
+/* Clear fix */
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+.group:after {
+    clear: both;
+}
+.group {
+    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
